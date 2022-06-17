@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration form</title>
+
+    <style>
+        main {
+             display: flex;
+             margin:30px auto;
+             justify-content: space-around;
+             background-color: hsl(0, 100%, 74%);
+             
+        }
+
+        article {
+            width: 35%;
+            margin-left: 8%;
+            margin-top: 25%;
+        }
+
+        .heading, .p {
+            color: whitesmoke;
+        }
+
+        form {
+            width: 450px;
+            border: 2px solid whitesmoke;
+            margin-left: -25%;
+            height: 475px;
+            margin-bottom: 30%;
+            background-color: whitesmoke;
+            border-radius: 7px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.23);
+        }
+
+        input {
+            margin-top: 10%;
+            width: 80%;
+            margin-left: 9%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            padding-left: 10px;
+            border: 1px solid hsl(154, 59%, 51%);
+        }
+
+        .btn {
+            width: 82%;
+            background: hsl(154, 59%, 51%);
+            color: white;
+            outline:none;
+            border-radius: 5px;
+            border: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+        }
+
+        form p {
+            text-align: center;
+        }
+
+        .top {
+            width: 450px;;
+            /* border: 1px solid blue; */
+            margin-left: -25%;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 30%;
+            background: hsl(248, 32%, 49%);
+            border-radius: 7px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.23);
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article>
+            <h1 class="heading" >Learn to Code by <br> Watching Others</h1>
+            <p class="p">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </article>
+
+        <section>
+            <p class="top">Try it free 7 days then $20/month thereafter</p>
+
+            <form action="">
+                <input type="text" placeholder="First Name"><br>
+                <input type="text" placeholder="Last Name"><br>
+                <input type="text" placeholder="Email"><br>
+                <input type="text" placeholder="Password"><br>
+                <input class="btn" type="submit" value="CLAIM YOUR FREE TRIAL">
+                <p>Read the terms? Click here for <a href="#">Terms and Conditions.</a></p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
